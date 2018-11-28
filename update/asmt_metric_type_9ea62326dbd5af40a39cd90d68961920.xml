@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="asmt_metric_type">
+    <asmt_metric_type action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <allow_public>false</allow_public>
+        <allow_retake>false</allow_retake>
+        <anonymize>false</anonymize>
+        <business_rule display_value="Auto business rule for Assessments">f2f76366dbd5af40a39cd90d689619cf</business_rule>
+        <classification/>
+        <condition/>
+        <default_filter>-- None --</default_filter>
+        <delete_business_rule display_value="Auto deletion rule for Assessments">f2f76366dbd5af40a39cd90d689619d3</delete_business_rule>
+        <description/>
+        <disable_ui_action/>
+        <display_all_filters>false</display_all_filters>
+        <display_field>active</display_field>
+        <duration>1970-01-15 00:00:00</duration>
+        <enable_ui_action/>
+        <end_note/>
+        <enforce_condition>false</enforce_condition>
+        <evaluation_method>assessment</evaluation_method>
+        <filter_condition/>
+        <filter_table>x_snc_staff_securi_non_compete</filter_table>
+        <introduction/>
+        <job/>
+        <live_feed>false</live_feed>
+        <name>Non-compete Company Risk</name>
+        <notify_if_overdue>false</notify_if_overdue>
+        <notify_user>true</notify_user>
+        <overdue_notify_user/>
+        <portal_pagination>category</portal_pagination>
+        <publish_state>published</publish_state>
+        <roles/>
+        <scale_factor>1</scale_factor>
+        <schedule_period>0</schedule_period>
+        <schedule_type>on_demand</schedule_type>
+        <scoring_type>percent</scoring_type>
+        <signature/>
+        <sys_class_name>asmt_metric_type</sys_class_name>
+        <sys_created_by>joe.evans</sys_created_by>
+        <sys_created_on>2018-10-25 09:12:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ea62326dbd5af40a39cd90d68961920</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Non-compete Company Risk</sys_name>
+        <sys_package display_value="Staff Security Profile" source="x_snc_staff_securi">62120675db15eb40c664a9a35b9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Staff Security Profile">62120675db15eb40c664a9a35b9619a3</sys_scope>
+        <sys_update_name>asmt_metric_type_9ea62326dbd5af40a39cd90d68961920</sys_update_name>
+        <sys_updated_by>joe.evans</sys_updated_by>
+        <sys_updated_on>2018-10-25 11:29:53</sys_updated_on>
+        <table>x_snc_staff_securi_non_compete</table>
+        <url/>
+    </asmt_metric_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=9ea62326dbd5af40a39cd90d68961920"/>
+</record_update>

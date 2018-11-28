@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Company Risk Analysis</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[gs.info("***** Running UI Action to generate assessment");  
+
+// NC Company Risk Category: f818e366dbd5af40a39cd90d689619db
+
+// Create an assessable record on the assessment category if non exists.
+var assessableRecord = new GlideRecord('asmt_m2m_category_assessment');
+assessableRecord.addQuery('assessable_record', current.sys_id);
+assessableRecord.addQuery('category', 'f818e366dbd5af40a39cd90d689619db');  // NC Company Risk Category
+assessableRecord.query();
+
+if(!assessableRecord.next()) {
+	assessableRecord.assessable_record = current.sys_id;
+	assessableRecord.category = 'f818e366dbd5af40a39cd90d689619db';  // NC Company Risk Category
+	assessableRecord.insert();
+}
+
+var taskAssignedTo = current.assigned_to;
+gs.info("***** Assigned To: " + taskAssignedTo);
+
+var asmtUtils = new global.AssessmentUtils();
+// Create the assessment - sys_id = assessment type
+//var asmtResult = new global.AssessmentCreation().createAssessments('9ea62326dbd5af40a39cd90d68961920', current.sys_id, taskAssignedTo); 
+var asmtResult = asmtUtils.createAssessments('9ea62326dbd5af40a39cd90d68961920', current.sys_id, taskAssignedTo); 
+gs.info("***** asmtResult: " + asmtResult);
+
+var asmtArray = [];
+asmtArray = asmtResult.split(',');
+
+var asmtRecord = new GlideRecord('asmt_assessment_instance');
+asmtRecord.get(asmtArray[0]);
+asmtRecord.task_id = current.sys_id;
+asmtRecord.update();
+
+action.setRedirectURL(current);]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>joe.evans</sys_created_by>
+        <sys_created_on>2018-10-25 09:05:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4f25e7a2dbd5af40a39cd90d68961914</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Company Risk Analysis</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Staff Security Profile" source="x_snc_staff_securi">62120675db15eb40c664a9a35b9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Staff Security Profile">62120675db15eb40c664a9a35b9619a3</sys_scope>
+        <sys_update_name>sys_ui_action_4f25e7a2dbd5af40a39cd90d68961914</sys_update_name>
+        <sys_updated_by>joe.evans</sys_updated_by>
+        <sys_updated_on>2018-10-25 10:17:23</sys_updated_on>
+        <table>x_snc_staff_securi_non_compete</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>

@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-11-28 16:26:09">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>x_snc_staff_securi.user</read_roles>
+        <roles>x_snc_staff_securi.user</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>joe.evans</sys_created_by>
+        <sys_created_on>2018-10-26 10:16:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>61104903db5def40a39cd90d689619d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Staff Security Profile Overview</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Staff Security Profile" source="x_snc_staff_securi">62120675db15eb40c664a9a35b9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Staff Security Profile">62120675db15eb40c664a9a35b9619a3</sys_scope>
+        <sys_update_name>sys_portal_page_61104903db5def40a39cd90d689619d3</sys_update_name>
+        <sys_updated_by>joe.evans</sys_updated_by>
+        <sys_updated_on>2018-10-26 10:17:08</sys_updated_on>
+        <title>Staff Security Profile Overview</title>
+        <user/>
+        <view>x_snc_staff_securi.user</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="Staff Security Profile Overview">61104903db5def40a39cd90d689619d3</page>
+                <summary/>
+                <sys_created_by>joe.evans</sys_created_by>
+                <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                <sys_id>10bd81c3db9def40a39cd90d6896192f</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>joe.evans</sys_updated_by>
+                <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>18bd81c3db9def40a39cd90d68961931</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>4e0d3cfadb1daf40a39cd90d68961920</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>90bd81c3db9def40a39cd90d6896192f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>90bd81c3db9def40a39cd90d68961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>90bd81c3db9def40a39cd90d68961931</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>Non-Compete Cases / Opened By</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>90bd81c3db9def40a39cd90d68961932</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>90bd81c3db9def40a39cd90d68961933</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>61104903db5def40a39cd90d689619d3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>94bd81c3db9def40a39cd90d6896192f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>94bd81c3db9def40a39cd90d68961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>94bd81c3db9def40a39cd90d68961932</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>98bd81c3db9def40a39cd90d6896192f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>98bd81c3db9def40a39cd90d68961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>98bd81c3db9def40a39cd90d68961932</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>9cbd81c3db9def40a39cd90d6896192f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>9cbd81c3db9def40a39cd90d68961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>9cbd81c3db9def40a39cd90d68961931</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">10bd81c3db9def40a39cd90d6896192f</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>9cbd81c3db9def40a39cd90d68961932</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="Staff Security Profile Overview">61104903db5def40a39cd90d689619d3</page>
+                <summary/>
+                <sys_created_by>joe.evans</sys_created_by>
+                <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                <sys_id>14bd81c3db9def40a39cd90d6896191d</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>joe.evans</sys_updated_by>
+                <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>18bd81c3db9def40a39cd90d6896192c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>b94eb87edb1daf40a39cd90d68961966</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>90bd81c3db9def40a39cd90d6896192c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>Staff Profiles by Employment Status</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>90bd81c3db9def40a39cd90d6896192d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>90bd81c3db9def40a39cd90d6896192e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>94bd81c3db9def40a39cd90d6896191d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>94bd81c3db9def40a39cd90d6896192d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>94bd81c3db9def40a39cd90d6896192e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>61104903db5def40a39cd90d689619d3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>98bd81c3db9def40a39cd90d6896192d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>300</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>9cbd81c3db9def40a39cd90d6896192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>9cbd81c3db9def40a39cd90d6896192c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>9cbd81c3db9def40a39cd90d6896192d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>d0bd81c3db9def40a39cd90d6896191e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>d0bd81c3db9def40a39cd90d6896191f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>d4bd81c3db9def40a39cd90d6896191e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>d8bd81c3db9def40a39cd90d6896191e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>dcbd81c3db9def40a39cd90d6896191d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">14bd81c3db9def40a39cd90d6896191d</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>dcbd81c3db9def40a39cd90d6896191e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>0</offset>
+                <page display_value="Staff Security Profile Overview">61104903db5def40a39cd90d689619d3</page>
+                <summary/>
+                <sys_created_by>joe.evans</sys_created_by>
+                <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                <sys_id>98bd81c3db9def40a39cd90d68961935</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>joe.evans</sys_updated_by>
+                <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">98bd81c3db9def40a39cd90d68961935</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>18bd81c3db9def40a39cd90d68961937</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>61104903db5def40a39cd90d689619d3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">98bd81c3db9def40a39cd90d68961935</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>1cbd81c3db9def40a39cd90d68961935</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>509d0983db9def40a39cd90d689619a3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">98bd81c3db9def40a39cd90d68961935</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>90bd81c3db9def40a39cd90d68961936</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">98bd81c3db9def40a39cd90d68961935</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>90bd81c3db9def40a39cd90d68961937</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>Outstanding Assessments</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">98bd81c3db9def40a39cd90d68961935</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>94bd81c3db9def40a39cd90d68961936</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">98bd81c3db9def40a39cd90d68961935</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>98bd81c3db9def40a39cd90d68961936</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">98bd81c3db9def40a39cd90d68961935</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>9cbd81c3db9def40a39cd90d68961936</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="Staff Security Profile Overview">61104903db5def40a39cd90d689619d3</page>
+                <summary/>
+                <sys_created_by>joe.evans</sys_created_by>
+                <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                <sys_id>d4bd81c3db9def40a39cd90d68961933</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>joe.evans</sys_updated_by>
+                <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">d4bd81c3db9def40a39cd90d68961933</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>54bd81c3db9def40a39cd90d68961935</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>61104903db5def40a39cd90d689619d3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">d4bd81c3db9def40a39cd90d68961933</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>58bd81c3db9def40a39cd90d68961933</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>4b624507db5def40a39cd90d689619c9</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">d4bd81c3db9def40a39cd90d68961933</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>d0bd81c3db9def40a39cd90d68961934</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">d4bd81c3db9def40a39cd90d68961933</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>d4bd81c3db9def40a39cd90d68961934</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">d4bd81c3db9def40a39cd90d68961933</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>d8bd81c3db9def40a39cd90d68961934</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">d4bd81c3db9def40a39cd90d68961933</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>dcbd81c3db9def40a39cd90d68961933</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-10-26 07:15:50">d4bd81c3db9def40a39cd90d68961933</portal_section>
+                        <sys_created_by>joe.evans</sys_created_by>
+                        <sys_created_on>2018-10-26 11:15:50</sys_created_on>
+                        <sys_id>dcbd81c3db9def40a39cd90d68961934</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>joe.evans</sys_updated_by>
+                        <sys_updated_on>2018-10-26 11:15:50</sys_updated_on>
+                        <value>NC Requests by profile (by Legal Name)</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

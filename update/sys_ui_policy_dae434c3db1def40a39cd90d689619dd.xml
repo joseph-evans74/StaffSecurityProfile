@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_snc_staff_securi_staff_security_profile">u_employment_type=Employee^ORu_employment_type=Contractor^EQ<item endquery="false" field="u_employment_type" goto="false" newquery="false" operator="=" or="false" value="Employee"/>
+            <item endquery="false" field="u_employment_type" goto="false" newquery="false" operator="=" or="true" value="Contractor"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Show Hire Date for Employee</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>joe.evans</sys_created_by>
+        <sys_created_on>2018-10-26 09:27:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dae434c3db1def40a39cd90d689619dd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Show Hire Date for Employee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Staff Security Profile" source="x_snc_staff_securi">62120675db15eb40c664a9a35b9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Staff Security Profile">62120675db15eb40c664a9a35b9619a3</sys_scope>
+        <sys_update_name>sys_ui_policy_dae434c3db1def40a39cd90d689619dd</sys_update_name>
+        <sys_updated_by>joe.evans</sys_updated_by>
+        <sys_updated_on>2018-10-26 09:58:00</sys_updated_on>
+        <table>x_snc_staff_securi_staff_security_profile</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

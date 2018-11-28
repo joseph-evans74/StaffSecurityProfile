@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Non-compete" max_length="40" name="x_snc_staff_securi_non_compete" sizeclass="13" type="collection">
+        <element label="Background check document" max_length="40" name="u_bgc_doc" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Company Risk" max_length="40" name="u_company_risk" read_only="true" type="string">
+            <choice>
+                <element label="Minor" sequence="0" value="4"/>
+                <element label="Low" sequence="1" value="3"/>
+                <element label="Medium" sequence="2" value="2"/>
+                <element label="High" sequence="3" value="1"/>
+            </choice>
+        </element>
+        <element label="Company Raw Score" max_length="40" name="u_comp_raw_score" read_only="true" type="integer"/>
+        <element label="Staff Profile" mandatory="true" max_length="32" name="u_staff_profile" reference="x_snc_staff_securi_staff_security_profile" type="reference"/>
+        <element label="Vendor" max_length="32" name="u_vendor" reference="core_company" type="reference"/>
+    </element>
+</database>

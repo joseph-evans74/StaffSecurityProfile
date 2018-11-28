@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>number</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_snc_staff_securi_non_compete</name>
+        <read_only>true</read_only>
+        <read_only_override>true</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>joe.evans</sys_created_by>
+        <sys_created_on>2018-10-25 10:30:50</sys_created_on>
+        <sys_id>1cc9bb2adb19af40a39cd90d689619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number</sys_name>
+        <sys_package display_value="Staff Security Profile" source="x_snc_staff_securi">62120675db15eb40c664a9a35b9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Staff Security Profile">62120675db15eb40c664a9a35b9619a3</sys_scope>
+        <sys_update_name>sys_dictionary_override_1cc9bb2adb19af40a39cd90d689619f8</sys_update_name>
+        <sys_updated_by>joe.evans</sys_updated_by>
+        <sys_updated_on>2018-10-25 10:30:50</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>

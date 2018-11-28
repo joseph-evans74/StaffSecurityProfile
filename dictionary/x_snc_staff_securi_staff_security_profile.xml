@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Staff Security Profile" max_length="40" name="x_snc_staff_securi_staff_security_profile" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Background records" max_length="40" name="u_bgc_count" read_only="true" type="integer"/>
+        <element label="Dummy Field" max_length="40" name="u_dummy_field" type="boolean"/>
+        <element choice="1" label="Employment Status" max_length="40" name="u_employment_status" type="choice">
+            <choice>
+                <element label="Active" sequence="0" value="Active"/>
+                <element label="Inactive" sequence="1" value="Inactive"/>
+            </choice>
+        </element>
+        <element choice="1" label="Employment Type" max_length="40" name="u_employment_type" type="choice">
+            <choice>
+                <element label="Employee" sequence="0" value="Employee"/>
+                <element label="Contractor" sequence="1" value="Contractor"/>
+                <element label="Contingent Worker" sequence="2" value="Contingent Worker"/>
+            </choice>
+        </element>
+        <element label="Hire Date" max_length="40" name="u_hire_date" type="glide_date"/>
+        <element label="Legal Name" max_length="32" name="u_legal_name" reference="sys_user" type="reference" unique="true"/>
+        <element label="Non-compete records" max_length="40" name="u_nc_count" read_only="true" type="integer"/>
+        <element label="Security Incidents" max_length="40" name="u_si_count" read_only="true" type="integer"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_si_list" reference="sn_si_incident" type="glide_list"/>
+        <index name="index">
+            <element name="u_legal_name"/>
+        </index>
+    </element>
+</database>

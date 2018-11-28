@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="aff2c6b5db15eb40c664a9a35b96191c" sys_domain="global" table="x_snc_staff_securi_staff_security_profile" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>joe.evans</sys_created_by>
+            <sys_created_on>2018-10-26 10:49:05</sys_created_on>
+            <sys_id>d897858bdb5def40a39cd90d6896196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_staff_securi_staff_security_profile" sys_domain="global" view="Default view">aff2c6b5db15eb40c664a9a35b96191c</sys_ui_section>
+            <sys_updated_by>joe.evans</sys_updated_by>
+            <sys_updated_on>2018-10-26 10:49:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_legal_name</element>
+            <position>1</position>
+            <sys_created_by>joe.evans</sys_created_by>
+            <sys_created_on>2018-10-26 10:49:05</sys_created_on>
+            <sys_id>5097858bdb5def40a39cd90d6896196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_staff_securi_staff_security_profile" sys_domain="global" view="Default view">aff2c6b5db15eb40c664a9a35b96191c</sys_ui_section>
+            <sys_updated_by>joe.evans</sys_updated_by>
+            <sys_updated_on>2018-10-26 10:49:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_legal_name.first_name</element>
+            <position>2</position>
+            <sys_created_by>joe.evans</sys_created_by>
+            <sys_created_on>2018-10-26 10:49:05</sys_created_on>
+            <sys_id>d097858bdb5def40a39cd90d6896196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_staff_securi_staff_security_profile" sys_domain="global" view="Default view">aff2c6b5db15eb40c664a9a35b96191c</sys_ui_section>
+            <sys_updated_by>joe.evans</sys_updated_by>
+            <sys_updated_on>2018-10-26 10:49:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_legal_name.last_name</element>
+            <position>3</position>
+            <sys_created_by>joe.evans</sys_created_by>
+            <sys_created_on>2018-10-26 10:49:05</sys_created_on>
+            <sys_id>5497858bdb5def40a39cd90d6896196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_staff_securi_staff_security_profile" sys_domain="global" view="Default view">aff2c6b5db15eb40c664a9a35b96191c</sys_ui_section>
+            <sys_updated_by>joe.evans</sys_updated_by>
+            <sys_updated_on>2018-10-26 10:49:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>joe.evans</sys_created_by>
+            <sys_created_on>2018-10-26 10:49:05</sys_created_on>
+            <sys_id>d497858bdb5def40a39cd90d6896196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_staff_securi_staff_security_profile" sys_domain="global" view="Default view">aff2c6b5db15eb40c664a9a35b96191c</sys_ui_section>
+            <sys_updated_by>joe.evans</sys_updated_by>
+            <sys_updated_on>2018-10-26 10:49:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_legal_name.employee_number</element>
+            <position>5</position>
+            <sys_created_by>joe.evans</sys_created_by>
+            <sys_created_on>2018-10-26 10:49:05</sys_created_on>
+            <sys_id>5897858bdb5def40a39cd90d6896196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_staff_securi_staff_security_profile" sys_domain="global" view="Default view">aff2c6b5db15eb40c664a9a35b96191c</sys_ui_section>
+            <sys_updated_by>joe.evans</sys_updated_by>
+            <sys_updated_on>2018-10-26 10:49:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_legal_name.title</element>
+            <position>6</position>
+            <sys_created_by>joe.evans</sys_created_by>
+            <sys_created_on>2018-10-26 10:49:05</sys_created_on>
+            <sys_id>d897858bdb5def40a39cd90d6896196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_staff_securi_staff_security_profile" sys_domain="global" view="Default view">aff2c6b5db15eb40c664a9a35b96191c</sys_ui_section>
+            <sys_updated_by>joe.evans</sys_updated_by>
+            <sys_updated_on>2018-10-26 10:49:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_legal_name.department</element>
+            <position>7</position>
+            <sys_created_by>joe.evans</sys_created_by>
+            <sys_created_on>2018-10-26 10:49:05</sys_created_on>
+            <sys_id>5c97858bdb5def40a39cd90d6896196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_staff_securi_staff_security_profile" sys_domain="global" view="Default view">aff2c6b5db15eb40c664a9a35b96191c</sys_ui_section>
+            <sys_updated_by>joe.evans</sys_updated_by>
+            <sys_updated_on>2018-10-26 10:49:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_employment_status</element>
+            <position>8</position>
+            <sys_created_by>joe.evans</sys_created_by>
+            <sys_created_on>2018-10-26 10:49:05</sys_created_on>
+            <sys_id>dc97858bdb5def40a39cd90d6896196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_staff_securi_staff_security_profile" sys_domain="global" view="Default view">aff2c6b5db15eb40c664a9a35b96191c</sys_ui_section>
+            <sys_updated_by>joe.evans</sys_updated_by>
+            <sys_updated_on>2018-10-26 10:49:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_employment_type</element>
+            <position>9</position>
+            <sys_created_by>joe.evans</sys_created_by>
+            <sys_created_on>2018-10-26 10:49:05</sys_created_on>
+            <sys_id>5097858bdb5def40a39cd90d6896196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_staff_securi_staff_security_profile" sys_domain="global" view="Default view">aff2c6b5db15eb40c664a9a35b96191c</sys_ui_section>
+            <sys_updated_by>joe.evans</sys_updated_by>
+            <sys_updated_on>2018-10-26 10:49:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hire_date</element>
+            <position>10</position>
+            <sys_created_by>joe.evans</sys_created_by>
+            <sys_created_on>2018-10-26 10:49:05</sys_created_on>
+            <sys_id>d097858bdb5def40a39cd90d6896196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_staff_securi_staff_security_profile" sys_domain="global" view="Default view">aff2c6b5db15eb40c664a9a35b96191c</sys_ui_section>
+            <sys_updated_by>joe.evans</sys_updated_by>
+            <sys_updated_on>2018-10-26 10:49:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_staff_securi_staff_security_profile</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>joe.evans</sys_created_by>
+            <sys_created_on>2018-10-22 17:56:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aff2c6b5db15eb40c664a9a35b96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_staff_securi_staff_security_profile</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Staff Security Profile" source="x_snc_staff_securi">62120675db15eb40c664a9a35b9619a3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Staff Security Profile">62120675db15eb40c664a9a35b9619a3</sys_scope>
+            <sys_update_name>sys_ui_section_aff2c6b5db15eb40c664a9a35b96191c</sys_update_name>
+            <sys_updated_by>joe.evans</sys_updated_by>
+            <sys_updated_on>2018-10-22 17:56:20</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

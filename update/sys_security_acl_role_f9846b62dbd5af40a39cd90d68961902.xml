@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>joe.evans</sys_created_by>
+        <sys_created_on>2018-10-25 08:57:54</sys_created_on>
+        <sys_id>f9846b62dbd5af40a39cd90d68961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_staff_securi_non_compete.x_snc_staff_securi.user</sys_name>
+        <sys_package display_value="Staff Security Profile" source="x_snc_staff_securi">62120675db15eb40c664a9a35b9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Staff Security Profile">62120675db15eb40c664a9a35b9619a3</sys_scope>
+        <sys_security_acl display_value="x_snc_staff_securi_non_compete">e5842b62dbd5af40a39cd90d689619fe</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f9846b62dbd5af40a39cd90d68961902</sys_update_name>
+        <sys_updated_by>joe.evans</sys_updated_by>
+        <sys_updated_on>2018-10-25 08:57:54</sys_updated_on>
+        <sys_user_role display_value="x_snc_staff_securi.user" name="x_snc_staff_securi.user">f612ca75db15eb40c664a9a35b9619b4</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

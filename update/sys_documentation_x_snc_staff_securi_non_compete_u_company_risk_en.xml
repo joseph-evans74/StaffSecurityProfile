@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_company_risk" label="Company Risk" language="en" table="x_snc_staff_securi_non_compete">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_company_risk</element>
+            <help/>
+            <hint/>
+            <label>Company Risk</label>
+            <language>en</language>
+            <name>x_snc_staff_securi_non_compete</name>
+            <plural>Company Risks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>joe.evans</sys_created_by>
+            <sys_created_on>2018-10-26 10:05:13</sys_created_on>
+            <sys_id>3d8dbc0fdb1def40a39cd90d68961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Company Risk</sys_name>
+            <sys_package display_value="Staff Security Profile" source="x_snc_staff_securi">62120675db15eb40c664a9a35b9619a3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Staff Security Profile">62120675db15eb40c664a9a35b9619a3</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_staff_securi_non_compete_u_company_risk_en</sys_update_name>
+            <sys_updated_by>joe.evans</sys_updated_by>
+            <sys_updated_on>2018-10-26 10:05:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
